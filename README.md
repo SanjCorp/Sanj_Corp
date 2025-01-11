@@ -86,6 +86,19 @@
         button:hover {
             background-color: #003580;
         }
+        .whatsapp-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+        }
+        .whatsapp-button:hover {
+            background-color: #1da851;
+        }
     </style>
 </head>
 <body>
@@ -122,12 +135,7 @@
     </section>
     <section id="contact">
         <h2>Contacto</h2>
-        <form>
-            <input type="text" name="name" placeholder="Nombre" required>
-            <input type="email" name="email" placeholder="Correo Electrónico" required>
-            <textarea name="message" placeholder="Escribe tu mensaje" rows="5" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <a class="whatsapp-button" href="https://wa.me/59163108637" target="_blank">Contactar por WhatsApp</a>
     </section>
     <footer>
         <p>&copy; 2025 Sanj Corp. Todos los derechos reservados.</p>
